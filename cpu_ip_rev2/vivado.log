@@ -1,0 +1,636 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Sep  8 13:51:19 2022
+# Process ID: 21716
+# Current directory: C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6620 C:\dev\fpga_proj\_mini\manoCPU\cpu_ip_rev2\cpu_ip_rev2.xpr
+# Log file: C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/vivado.log
+# Journal file: C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/dev/fpga_proj/_mini/cpu/cpu_ip_rev2' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.gen/sources_1', nor could it be found using path 'C:/dev/fpga_proj/_mini/cpu/cpu_ip_rev2/cpu_ip_rev2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/bram.v w ]
+add_files C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/bram.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/bram.v] -no_script -reset -force -quiet
+remove_files  C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/bram.v
+close [ open C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v w ]
+add_files C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: top
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+ERROR: [Synth 8-993] intput is an unknown type [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:9]
+INFO: [Synth 8-2350] module memory_interface ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+Failed to read verilog 'C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v'
+2 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: top
+ERROR: [Synth 8-2537] port clk is not defined [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:5]
+ERROR: [Synth 8-2537] port reset_n is not defined [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:6]
+INFO: [Synth 8-2350] module top ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+Failed to read verilog 'C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2024.398 ; gain = 8.383
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+ERROR: [Synth 8-91] ambiguous clock in event control [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:43]
+ERROR: [Synth 8-6156] failed synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+ERROR: [Synth 8-6156] failed synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2066.711 ; gain = 50.695
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+2 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: top
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+2 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: top
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_M_AXI [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:14]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_M_AXIS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:132]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_S_AXI [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:164]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_S_AXIS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:274]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS128 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:306]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS32 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:326]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS64 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:346]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_EVENTS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:366]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS128 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:376]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS32 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:396]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS64 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:416]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_EVENTS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:436]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AMS_ADC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:446]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AMS_DAC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:460]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:474]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:486]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1L [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:498]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:511]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:522]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:534]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:546]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:558]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:570]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:583]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:596]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:609]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:622]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:635]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:649]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:663]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:677]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:691]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:705]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AUTOBUF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:719]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BIBUF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:730]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BITSLICE_CONTROL [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:740]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCANE2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:884]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:914]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3A [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:933]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN6 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:954]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:974]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:991]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX6 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1008]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1029]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_LEAF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1039]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_ROW [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1054]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFDIV_LEAF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1069]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1083]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1093]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1110]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_DIV [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1122]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCTRL [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1144]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1183]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_1 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1198]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_CTRL [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1211]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_VIRTEX4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1225]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGP [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1239]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_FABRIC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1249]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1259]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT_SYNC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1281]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_LB [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1297]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_PS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1307]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFH [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1319]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFHCE [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1329]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1344]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1354]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIODQS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1372]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFMR [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1385]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFMRCE [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1395]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFR [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1410]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTUREE2 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1426]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1437]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3A [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1447]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1457]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1467]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX6 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1477]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CARRY4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1487]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CARRY8 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1505]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CFGLUT5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1524]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLL [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1554]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLLE [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1584]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLLHF [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1616]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CMAC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:1640]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CMACE4 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:2450]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:3366]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM5 [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:6592]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM_EXT [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:17039]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM_MAIN [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:17811]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCIRESET [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:21051]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:21061]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCMAC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:21107]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_ADV [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:23941]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_BASE [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:24012]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_PS [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:24060]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_SP [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:24118]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DDRMC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:24163]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DDRMC_RIU [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:25217]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DFE_CFR [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:25265]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DFE_DUC_DDC [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:25406]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DFE_FFT [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:25699]
+INFO: [Common 17-14] Message 'Synth 8-2490' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2121.324 ; gain = 31.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:70]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:94]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:121]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:147]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'AR' does not match port width (12) of module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:15]
+WARNING: [Synth 8-689] width (1) of port connection 'd_out' does not match port width (16) of module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:18]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (16) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:28]
+WARNING: [Synth 8-3848] Net q in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:16]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.891 ; gain = 55.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.891 ; gain = 55.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.891 ; gain = 55.070
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2144.891 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2220.371 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2290.648 ; gain = 200.828
+13 Infos, 5 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2290.648 ; gain = 200.828
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2335.309 ; gain = 37.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'd_out' does not match port width (16) of module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:30]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (16) of port connection 'd' does not match port width (12) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:39]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (16) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:40]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:13]
+WARNING: [Synth 8-3848] Net q in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2363.832 ; gain = 65.613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2386.703 ; gain = 88.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2386.703 ; gain = 88.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2398.285 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2398.285 ; gain = 100.066
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2398.285 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+WARNING: [Synth 8-689] width (1) of port connection 'd_out' does not match port width (16) of module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:30]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (16) of port connection 'd' does not match port width (12) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:39]
+WARNING: [Synth 8-689] width (1) of port connection 'q' does not match port width (16) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:40]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2415.426 ; gain = 17.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2416.070 ; gain = 17.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2416.070 ; gain = 17.785
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2427.734 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2427.734 ; gain = 29.449
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:22]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:22]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2427.734 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (16) of port connection 'd' does not match port width (12) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:46]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2427.734 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2427.734 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2427.734 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2430.840 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2430.840 ; gain = 3.105
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2430.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (16) of port connection 'd' does not match port width (12) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:47]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2430.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2430.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2430.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2444.250 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2444.250 ; gain = 13.410
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2444.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-689] width (16) of port connection 'd' does not match port width (12) of module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:47]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2444.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2453.875 ; gain = 9.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2453.875 ; gain = 9.625
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2468.410 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2468.410 ; gain = 24.160
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2468.410 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2468.410 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2468.410 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2468.410 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2476.789 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2476.789 ; gain = 8.379
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2476.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+WARNING: [Synth 8-3848] Net AR in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2476.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2476.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2476.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2485.777 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2485.777 ; gain = 8.988
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2485.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2485.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2492.641 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2492.641 ; gain = 6.863
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2492.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+WARNING: [Synth 8-3848] Net d_out in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:19]
+WARNING: [Synth 8-3848] Net q in module/entity top does not have driver. [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2492.902 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2492.902 ; gain = 0.262
+refresh_design
+CRITICAL WARNING: [Synth 8-976] we has already been declared [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+CRITICAL WARNING: [Synth 8-2654] second declaration of we ignored [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-994] we is declared here [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:17]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2492.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:92]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:119]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:145]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'memory_interface' [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'memory_interface' (2#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/memory_interface.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [C:/dev/fpga_proj/_mini/manoCPU/cpu_ip_rev2/cpu_ip_rev2.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2492.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2500.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2500.133 ; gain = 7.230

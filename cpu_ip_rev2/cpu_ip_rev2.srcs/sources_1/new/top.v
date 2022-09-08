@@ -35,7 +35,7 @@ cpu_0
     .AR(AR), // need check
     .d_in(q),
     .we(we),
-    .d_out(d)
+    .d_out(d_out)
 );
 
 memory_interface

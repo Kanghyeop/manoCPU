@@ -1,0 +1,500 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 21352
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Sep 08 13:12:22 KST 2022
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/dev/fpga_proj/_mini/manoCPU/homework8
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.2
+RDI_DATADIR: C:/Xilinx/Vivado/2021.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/dev/fpga_proj/_mini/manoCPU/homework8/vivado.log
+Vivado journal file: 	C:/dev/fpga_proj/_mini/manoCPU/homework8/vivado.jou
+Engine tmp dir: 	C:/dev/fpga_proj/_mini/manoCPU/homework8/.Xil/Vivado-21352-DESKTOP-UK50EEK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.2
+XILINX_SDK: C:/Xilinx/Vitis/2021.2
+XILINX_VITIS: C:/Xilinx/Vitis/2021.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	348 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,440 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 79 MB (+80193kb) [00:00:03]
+// [Engine Memory]: 1,440 MB (+1358612kb) [00:00:03]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Opening Vivado Project: C:\dev\fpga_proj\_mini\manoCPU\homework8\homework8.xpr. Version: Vivado v2020.3 
+dismissDialog("Older Project Version"); // aK
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/User/vivado/homework8' since last save. INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.gen/sources_1', nor could it be found using path 'C:/Users/User/vivado/homework8/homework8.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'homework8.xpr' upgraded for this version of Vivado. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 62 MB. Current time: 9/8/22, 1:12:23 PM KST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 114 MB (+32387kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  1263 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'. 
+// Project name: homework8; location: C:/dev/fpga_proj/_mini/manoCPU/homework8; part: xcvc1802-viva1596-1LHP-i-L
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 122 MB (+3164kb) [00:00:12]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // n
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-12507] Checking for NoC blocks in the design (if any)... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {C:/dev/fpga_proj/_mini/manoCPU/homework8/tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8/tb_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 84 MB. Current time: 9/8/22, 1:12:35 PM KST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// WARNING: HEventQueue.dispatchEvent() is taking  1091 ms.
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: $finish called at time : 28 ns : File "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sim_1/new/tb.v" Line 46 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1445.719 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e
+// [GUI Memory]: 145 MB (+16781kb) [00:00:21]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 92 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_behav.wcfg", 0); // m
+// Elapsed time: 47 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aL
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sram (sram.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sram (sram.v)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1058 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("sram.v", 694, 637); // be
+typeControlKey((HResource) null, "sram.v", 'c'); // be
+selectCodeEditor("sram.v", 697, 639); // be
+// Elapsed time: 544 seconds
+selectCodeEditor("sram.v", 345, 592); // be
+typeControlKey((HResource) null, "sram.v", 'v'); // be
+selectCodeEditor("sram.v", 330, 577); // be
+selectCodeEditor("sram.v", 57, 548); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("sram.v", 177, 900); // be
+selectCodeEditor("sram.v", 171, 900); // be
+// Elapsed time: 37 seconds
+selectCodeEditor("sram.v", 47, 480); // be
+typeControlKey((HResource) null, "sram.v", 'c'); // be
+typeControlKey((HResource) null, "sram.v", 'v'); // be
+selectCodeEditor("sram.v", 221, 43); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("sram.v", 97, 467); // be
+selectCodeEditor("sram.v", 197, 385); // be
+selectCodeEditor("sram.v", 101, 468); // be
+selectCodeEditor("sram.v", 59, 391); // be
+selectCodeEditor("sram.v", 79, 423); // be
+selectCodeEditor("sram.v", 220, 215); // be
+selectCodeEditor("sram.v", 227, 254); // be
+selectCodeEditor("sram.v", 233, 286); // be
+selectCodeEditor("sram.v", 140, 312); // be
+selectCodeEditor("sram.v", 255, 368); // be
+selectCodeEditor("sram.v", 267, 288); // be
+selectCodeEditor("sram.v", 274, 251); // be
+selectCodeEditor("sram.v", 281, 215); // be
+selectCodeEditor("sram.v", 690, 373); // be
+selectCodeEditor("sram.v", 721, 423); // be
+selectCodeEditor("sram.v", 745, 549); // be
+// Elapsed time: 36 seconds
+selectCodeEditor("sram.v", 200, 490); // be
+typeControlKey((HResource) null, "sram.v", 'v'); // be
+selectCodeEditor("sram.v", 251, 520); // be
+selectCodeEditor("sram.v", 263, 565); // be
+selectCodeEditor("sram.v", 94, 44); // be
+// Elapsed time: 27 seconds
+selectCodeEditor("sram.v", 468, 90); // be
+// Elapsed time: 38 seconds
+selectCodeEditor("sram.v", 183, 576); // be
+// Elapsed time: 32 seconds
+selectCodeEditor("sram.v", 301, 652); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("sram.v", 426, 619); // be
+selectCodeEditor("sram.v", 458, 660); // be
+selectCodeEditor("sram.v", 458, 660); // be
+selectCodeEditor("sram.v", 530, 754); // be
+selectCodeEditor("sram.v", 227, 578); // be
+selectCodeEditor("sram.v", 236, 596); // be
+selectCodeEditor("sram.v", 239, 498); // be
+selectCodeEditor("sram.v", 238, 499); // be
+selectCodeEditor("sram.v", 303, 203); // be
+selectCodeEditor("sram.v", 516, 442); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("sram.v", 535, 648); // be
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // n
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bA
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-12507] Checking for NoC blocks in the design (if any)... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/cpu.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module cpu INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module sram ERROR: [VRFC 10-2989] 'clk' is not declared [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:20] ERROR: [VRFC 10-2865] module 'sram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:3] 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 1); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cpu (cpu.v)]", 1, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1050 ms.
+dismissDialog("Opening Editor"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb (tb.v)]", 6, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb (tb.v)]", 6, true, false, false, false, false, true); // D - Double Click - Node
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("tb.v", 526, 449); // be
+// Elapsed time: 88 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sram.v", 2); // m
+selectCodeEditor("sram.v", 343, 691); // be
+typeControlKey((HResource) null, "sram.v", 'c'); // be
+typeControlKey((HResource) null, "sram.v", 'v'); // be
+// Elapsed time: 18 seconds
+selectCodeEditor("sram.v", 313, 430); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 1); // m
+selectCodeEditor("tb.v", 564, 320); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 3); // m
+selectCodeEditor("cpu.v", 483, 227); // be
+typeControlKey((HResource) null, "cpu.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 1); // m
+// Elapsed time: 485 seconds
+selectCodeEditor("tb.v", 1016, 328); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,440 MB. GUI used memory: 83 MB. Current time: 9/8/22, 1:42:38 PM KST
+// Elapsed time: 440 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sram.v", 2); // m
+selectCodeEditor("sram.v", 195, 183); // be
+selectCodeEditor("sram.v", 107, 177); // be
+selectCodeEditor("sram.v", 92, 48); // be
+selectCodeEditor("sram.v", 347, 122); // be
+selectCodeEditor("sram.v", 373, 164); // be
+selectCodeEditor("sram.v", 540, 305); // be
+selectCodeEditor("sram.v", 532, 391); // be
+selectCodeEditor("sram.v", 124, 389); // be
+selectCodeEditor("sram.v", 63, 481); // be
+selectCodeEditor("sram.v", 37, 393); // be
+selectCodeEditor("sram.v", 410, 449); // be
+selectCodeEditor("sram.v", 148, 512); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey((HResource) null, "sram.v", 'c'); // be
+selectCodeEditor("sram.v", 270, 281, false, false, false, true, false); // be - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ao
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 1); // m
+selectCodeEditor("tb.v", 582, 393); // be
+selectCodeEditor("tb.v", 117, 440); // be
+selectCodeEditor("tb.v", 851, 571); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // n
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-12507] Checking for NoC blocks in the design (if any)... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/cpu.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module cpu INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module sram ERROR: [VRFC 10-2989] 'clk' is not declared [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:19] ERROR: [VRFC 10-2865] module 'sram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:3] 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectCodeEditor("tb.v", 339, 538); // be
+selectCodeEditor("tb.v", 466, 424); // be
+// Elapsed time: 24 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("tb.v", 507, 463); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sram.v", 2); // m
+selectCodeEditor("sram.v", 514, 288); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 1); // m
+selectCodeEditor("tb.v", 328, 424); // be
+selectCodeEditor("tb.v", 567, 554); // be
+selectCodeEditor("tb.v", 455, 425); // be
+selectCodeEditor("tb.v", 687, 552); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // n
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-12507] Checking for NoC blocks in the design (if any)... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/cpu.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module cpu INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module sram ERROR: [VRFC 10-2989] 'clk' is not declared [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:19] ERROR: [VRFC 10-2865] module 'sram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/sram.v:3] 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectButton(RDIResource.HFilterToolBar_SHOW_ALL, "Show All"); // a
+selectButton(RDIResource.HFilterToolBar_HIDE_ALL, "Hide All"); // a
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.sim/sim_1/behav/xsim/xvlog.log' file for more information.. ]", 2, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ]", 3, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ]", 3, true, false, false, false, false, true); // ah - Double Click - Node
+selectCodeEditor("tb.v", 567, 639); // be
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // n
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // n
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xcvc1802-viva1596-1LHP-i-L Top: cpu 
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,732 MB. GUI used memory: 83 MB. Current time: 9/8/22, 1:50:13 PM KST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: NOC_COMPILE_STARTED
+// TclEventType: NOC_COMPILE_FINISHED
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,068 MB (+583032kb) [00:38:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,069 MB. GUI used memory: 83 MB. Current time: 9/8/22, 1:50:19 PM KST
+// [GUI Memory]: 154 MB (+2639kb) [00:38:04]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 230 MB (+71363kb) [00:38:05]
+// [Engine Memory]: 2,294 MB (+128158kb) [00:38:05]
+// [GUI Memory]: 261 MB (+19861kb) [00:38:06]
+// Xgd.load filename: C:/Xilinx/Vivado/2021.2/data/parts/xilinx/devint/vault/versal/data/graphics/devices/xcvc1802.v10.xgd; ZipEntry: xcvc1802_detail.xgd elapsed time: 1.8s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.1s
+// WARNING: HEventQueue.dispatchEvent() is taking  1294 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2489.352 ; gain = 342.297 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2572.340 ; gain = 425.285 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2577.871 ; gain = 430.816 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2577.871 ; gain = 430.816 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2577.871 ; gain = 0.000 
+// Tcl Message: INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off. INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2766.941 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 3110.250 ; gain = 963.195 
+// Tcl Message: 10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3110.250 ; gain = 1664.531 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 20 seconds
+dismissDialog("Open Elaborated Design"); // bA
+// [Engine Memory]: 2,412 MB (+3307kb) [00:38:07]
+// [Engine Memory]: 2,869 MB (+353364kb) [00:38:07]
+// [Engine Memory]: 3,347 MB (+350905kb) [00:38:09]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 5.2s
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 4); // m
+// [GUI Memory]: 281 MB (+8065kb) [00:38:29]
+// [Engine Memory]: 3,680 MB (+172827kb) [00:38:29]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sram.v", 3); // m
+selectCodeEditor("sram.v", 642, 535); // be
+// Elapsed time: 153 seconds
+typeControlKey((HResource) null, "sram.v", 'c'); // be
+// Elapsed time: 138 seconds
+selectCodeEditor("sram.v", 359, 778); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 2); // m
+// [GUI Memory]: 298 MB (+2826kb) [00:45:00]
+// Elapsed time: 310 seconds
+selectCodeEditor("tb.v", 353, 189); // be
+// Elapsed time: 810 seconds
+selectCodeEditor("tb.v", 364, 357); // be
+selectCodeEditor("tb.v", 159, 140); // be
+selectCodeEditor("tb.v", 87, 110, false, false, false, true, false); // be - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ao
+// Elapsed time: 33 seconds
+selectCodeEditor("tb.v", 225, 387); // be
+selectCodeEditor("tb.v", 263, 382); // be
+typeControlKey((HResource) null, "tb.v", 'c'); // be
+// Elapsed time: 119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 4); // m
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // n
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectCodeEditor("cpu.v", 563, 339); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,680 MB. GUI used memory: 219 MB. Current time: 9/8/22, 2:20:24 PM KST
+// Elapsed time: 188 seconds
+selectCodeEditor("cpu.v", 152, 239); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sram.v", 3); // m
+selectCodeEditor("sram.v", 258, 315); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb.v", 2); // m
+selectCodeEditor("tb.v", 203, 206); // be
