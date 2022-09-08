@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Sep  8 12:34:22 2022
+# Process ID: 21944
+# Current directory: C:/dev/fpga_proj/_mini/cpu/cpu_ip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11456 C:\dev\fpga_proj\_mini\cpu\cpu_ip\cpu_ip.xpr
+# Log file: C:/dev/fpga_proj/_mini/cpu/cpu_ip/vivado.log
+# Journal file: C:/dev/fpga_proj/_mini/cpu/cpu_ip\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/dev/fpga_proj/_mini/cpu/cpu_ip/cpu_ip.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
