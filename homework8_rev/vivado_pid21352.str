@@ -843,3 +843,11 @@ ui.utils.j: ui.frmwork.cmd.CommandFailedException: boost::filesystem::remove: ´Ù
 // CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
 // HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
 selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'exit'
+// TclEventType: STOP_GUI
+// HMemoryUtils.trashcanNow. Engine heap size: 3,680 MB. GUI used memory: 223 MB. Current time: 9/8/22, 3:09:43 PM KST
+
+// Exiting Vivado with a status code 0 at 9/8/22, 3:25:45 PM KST...
+// Elapsed time: 02:13:30
