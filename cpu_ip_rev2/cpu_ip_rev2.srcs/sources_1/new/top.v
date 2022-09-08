@@ -1,9 +1,29 @@
 `timescale 1ns / 1ps
 
-module top();
+module top(clk, reset_n);
 
+// params
+
+parameter 
+    addr_width = 12, 
+    word_depth = 4096,
+    word_width = 16;
+
+// io
 input clk;
 input reset_n;
+
+// wire from cpu
+wire we;
+wire [15:0]d_in;
+wire [15:0]d_out;
+wire [11:0]AR;
+
+// wire from ram
+wire we;
+wire [addr_width-1:0] addr;
+wire [word_width-1:0] d;
+wire [word_width-1:0] q;
 
 // instantiation
 
@@ -11,13 +31,21 @@ cpu
 cpu_0
 (
     .clk(clk),
-    .reset(reset),
-    .AR(AR),
-    .d_in(d_in),
+    .reset(reset_n),
+    .AR(AR), // need check
+    .d_in(q),
     .we(we),
-    .d_out(d_out)
+    .d_out(d)
 );
 
-
+memory_interface
+memory_interface_0
+(
+    .clk(clk),
+    .we(we), 
+    .addr(AR), 
+    .d(d_out), 
+    .q(q)
+);
 
 endmodule

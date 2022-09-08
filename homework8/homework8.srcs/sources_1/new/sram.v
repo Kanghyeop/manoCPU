@@ -1,6 +1,6 @@
 `timescale 0.1ns / 1ps
 
-module sram(we, addr, mem_in, mem_out);
+module sram(we, addr, d, q);
 
 parameter 
     addr_width = 12, 
@@ -9,20 +9,19 @@ parameter
 
 input we;
 input [addr_width-1:0] addr;
-input [addr_width-1:0] mem_in;
+input [addr_width-1:0] d;
 
-output [word_width-1:0] mem_out;
+output [word_width-1:0] q;
 
-reg [word_width-1:0] mem_out;
-reg [word_width-1:0] mem [0:word_depth-1];
+reg [word_width-1:0] q;
+reg [word_width-1:0] ram [0:word_depth-1];
 
-always@(addr) begin // read
-    #0.1 mem_out <= mem[addr]; // access time
-end
-
-always@(we or mem_in or addr) begin // write
-    if(!we) 
-        mem[addr] <= mem_in;
+always @(posedge clk)
+begin 
+    if (we) // write
+        ram[addr] <= d;
+    else // read
+        q <= ram[addr]; // didn't consider access time so far
 end
 
 endmodule

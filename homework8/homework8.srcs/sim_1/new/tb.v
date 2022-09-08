@@ -24,8 +24,8 @@ wire [word_width-1:0] mem_out;
 integer fp;
 
 // mapping
-cpu cpu0 (.clk(clk), .reset(reset), .AR(AR), .d_in(d_in), .we(we), .d_out(d_out));
-sram sram0 (.we(we), .addr(AR), .mem_in(d_out), .mem_out(d_in));
+cpu cpu0 (.clk(clk), .reset(reset), .AR(AR), .d_in(q), .we(we), .d_out(d));
+sram sram0 (.we(we), .addr(AR), .d(d_out), .q(d_in));
 
 always #0.5 clk = ~clk;
 

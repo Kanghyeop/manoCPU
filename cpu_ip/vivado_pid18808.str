@@ -193,3 +193,19 @@ selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL An
 // Elapsed time: 24 seconds
 closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
 selectCodeEditor("cpu.v", 449, 385); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 105 MB. Current time: 9/8/22, 1:14:11 PM KST
+// Elapsed time: 1640 seconds
+selectCodeEditor("cpu.v", 391, 508); // be
+typeControlKey((HResource) null, "cpu.v", 'c'); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 105 MB. Current time: 9/8/22, 1:44:12 PM KST
+// Elapsed time: 1644 seconds
+selectCodeEditor("cpu.v", 378, 713); // be
+typeControlKey((HResource) null, "cpu.v", 'c'); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("cpu.v", 391, 732); // be
+selectCodeEditor("cpu.v", 391, 732); // be
+typeControlKey((HResource) null, "cpu.v", 'c'); // be
+typeControlKey((HResource) null, "cpu.v", 'c'); // be
+selectCodeEditor("cpu.v", 60, 745, false, false, false, true, false); // be - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ao
+// HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 96 MB. Current time: 9/8/22, 2:14:12 PM KST

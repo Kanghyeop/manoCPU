@@ -1,4 +1,4 @@
-`timescale 0.1ns / 1ps
+`timescale 1ns / 1ps
 
 module cpu(clk, reset, AR, d_in, we, d_out);
 
@@ -33,38 +33,35 @@ always@(posedge clk or negedge reset) begin // Reset all reg
     end
 end
 
-always@(posedge clk or negedge reset) begin // SC Control
+always@(posedge clk or negedge reset) begin // SC&we Control
+    we <= 1'd1;
     if(!reset)
         SC <= 4'b0000; // Reset
     else
         SC <= SC+1; // Increment
 end
 
-always@(posedge clk or negedge reset) begin // We Control
-    we <= 1'd1;
-end
-
-always@(posedge clk or negedge reset) begin // T[0]
+always@(posedge clk) begin // T[0]
     if(SC==4'b0000) begin
         AR <= PC;
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[1]
+always@(posedge clk) begin // T[1]
     if(SC==4'b0001) begin
         IR <= d_in;  // IR <- Mem[AR]
         PC <= PC+1;
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[2]
+always@(posedge clk) begin // T[2]
     if(SC==4'b0010) begin
         I <= IR[15];
         AR <= IR[11:0];
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[3]
+always@(posedge clk) begin // T[3]
     if(SC==4'b0011) begin
         if(IR[14:12]==3'b111 & I==0) begin // Register-reference instruction.
             if(AR[11:8]==4'b0001) // LDC = 71xx
@@ -91,7 +88,7 @@ always@(posedge clk or negedge reset) begin // T[3]
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[4]
+always@(posedge clk) begin // T[4]
     if(SC==4'b0100) begin
         if(IR[14:12]!=3'b111) begin // Memory-reference instruction.
             case(IR[14:12]) // I = 0 or 1
@@ -118,7 +115,7 @@ always@(posedge clk or negedge reset) begin // T[4]
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[5]
+always@(posedge clk) begin // T[5]
     if(SC==4'b0101) begin
         if(IR[14:12]!=3'b111) begin // Memory-reference instruction.
             case(IR[14:12]) // I = 0 or 1
@@ -144,7 +141,7 @@ always@(posedge clk or negedge reset) begin // T[5]
     end
 end
 
-always@(posedge clk or negedge reset) begin // T[6]
+always@(posedge clk) begin // T[6]
     if(SC==4'b0110) begin
         if(IR[14:12]!=3'b111) begin // Memory-reference instruction.
             case(IR[14:12])
