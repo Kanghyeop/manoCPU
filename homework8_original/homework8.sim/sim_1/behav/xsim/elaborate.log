@@ -1,10 +1,10 @@
-Vivado Simulator v2020.3.0
+Vivado Simulator v2021.2
 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto 41a09378083948738764f52dbea66246 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 12 for port 'mem_in' [C:/Users/User/vivado/homework8/homework8.srcs/sim_1/new/tb.v:28]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 12 for port 'mem_in' [C:/dev/fpga_proj/_mini/manoCPU/homework8_original/homework8.srcs/sim_1/new/tb.v:28]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis

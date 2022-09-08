@@ -21,7 +21,7 @@ reg [word_width-1:0] ram [0:word_depth-1];
 always @(posedge clk)
 begin 
     if(ce) begin
-        if (we) // write
+        if (!we) // write
             ram[addr] <= d;
         else // read
             q <= ram[addr]; // didn't consider access time so far
