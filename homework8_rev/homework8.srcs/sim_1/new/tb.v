@@ -66,7 +66,7 @@ initial begin // simulation
     reset_n = 1'b1;
     #0.1 reset_n = 1'b0;
     #0.1 reset_n = 1'b1;
-    #279.8
+    #300
     $fdisplay(fp, "SRAM[99] = %b", tb.sram_0.ram[99]);
     $fclose(fp);
     $finish;

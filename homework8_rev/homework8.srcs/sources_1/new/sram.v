@@ -24,7 +24,7 @@ begin
         if (!we) // write
             ram[addr] <= d;
         else // read
-            q <= ram[addr]; // didn't consider access time so far
+            #0.1 q <= ram[addr]; // set access_time 0.1ns, didn't consider real board time.
     end     
 end
 

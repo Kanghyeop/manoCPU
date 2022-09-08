@@ -20,3 +20,66 @@ close_sim
 launch_simulation
 open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
 source tb.tcl
+save_wave_config {C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg}
+save_wave_config {C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+save_wave_config {C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
+source tb.tcl

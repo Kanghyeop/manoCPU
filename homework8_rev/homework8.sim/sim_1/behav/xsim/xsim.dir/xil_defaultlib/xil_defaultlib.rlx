@@ -3,6 +3,6 @@
 Oct 19 2021
 03:16:22
 C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.sim/sim_1/behav/xsim/glbl.v,1617756343,verilog,,,,glbl,,,,,,,,
-C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sim_1/new/tb.v,1662617550,verilog,,,,tb,,,,,,,,
-C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/cpu.v,1662617346,verilog,,C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/sram.v,,cpu,,,,,,,,
-C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/sram.v,1662619178,verilog,,C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sim_1/new/tb.v,,sram,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sim_1/new/tb.v,1662625783,verilog,,,,tb,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/cpu.v,1662625685,verilog,,C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/sram.v,,cpu,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sources_1/new/sram.v,1662623096,verilog,,C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sim_1/new/tb.v,,sram,,,,,,,,

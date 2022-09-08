@@ -34,9 +34,9 @@ always@(posedge clk or negedge reset) begin // Reset all reg
 end
 
 always@(posedge clk or negedge reset) begin // SC&we Control
-    we <= 1'd1;
-    if(!reset)
+    if(!reset) begin
         SC <= 4'b0000; // Reset
+    end
     else
         SC <= SC+1; // Increment
 end
@@ -44,12 +44,13 @@ end
 always@(posedge clk) begin // T[0]
     if(SC==4'b0000) begin
         AR <= PC;
+        we <= 1;
     end
 end
 
 always@(posedge clk) begin // T[1]
     if(SC==4'b0001) begin
-        IR <= d_in;  // IR <- Mem[AR]
+        #0.2 IR <= d_in;  // IR <- Mem[AR]
         PC <= PC+1;
     end
 end
