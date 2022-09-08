@@ -1,0 +1,29 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2021.2 (64-bit)
+# SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Current time: Thu Sep 08 15:09:34 KST 2022
+# Process ID (PID): 21352
+# User: USER
+# OS: Windows 10
+# Project: homework8
+# Part: xcvc1802-viva1596-1LHP-i-L
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Thu Sep 08 15:09:34 KST 2022
+ui.utils.j: ui.frmwork.cmd.CommandFailedException: boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/USER/AppData/Local/Temp/xcvc1802_detail.xgd_7412930750982013651.xlnx" ui.frmwork.cmd.CommandFailedException: boost::filesystem::remove: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: "C:/Users/USER/AppData/Local/Temp/xcvc1802_detail.xgd_7412930750982013651.xlnx"
+	at ui.data.fed.fedi.RouteApi_loadXgdAndInitRouteStorage(Native Method)
+	at ui.data.fed.b.va(SourceFile:2033)
+	at ui.data.fed.e.aXx(SourceFile:1922)
+	at ui.frmwork.y.run(SourceFile:206)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+	at ui.utils.d.c.p(SourceFile:953)
+	at ui.utils.d.c.o(SourceFile:226)
+	at ui.utils.v.o(SourceFile:250)
+	at ui.frmwork.y.run(SourceFile:212)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

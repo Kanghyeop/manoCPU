@@ -21,3 +21,12 @@ launch_simulation
 launch_simulation
 launch_simulation
 synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+refresh_design
+launch_simulation
+refresh_design
+launch_simulation

@@ -14,3 +14,14 @@ start_gui
 open_project C:/dev/fpga_proj/_mini/manoCPU/cpu_ip/cpu_ip.xpr
 update_compile_order -fileset sources_1
 synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+close_project
+open_project C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8/tb_behav.wcfg
+source tb.tcl

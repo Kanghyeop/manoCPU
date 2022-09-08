@@ -1,18 +1,17 @@
-`timescale 1ns / 1ps
+`timescale 0.1ns / 1ps
 
-module cpu(clk, reset, AR, d_in, we, d_out);
+module cpu(clk, reset, AR, d_in, cs, we, d_out);
 
 input clk;
 input reset;
 input [15:0]d_in;
 
-output we;
-output [15:0]d_out;
-reg we;
-reg [15:0]d_out;
+output reg cs;
+output reg we;
+output reg [15:0]d_out;
 
-output [11:0]AR;
-reg [11:0]AR, PC;
+output reg [11:0]AR;
+reg [11:0] PC;
 reg [15:0]IR, DR, AC;
 
 reg [3:0]SC;
@@ -29,6 +28,7 @@ always@(posedge clk or negedge reset) begin // Reset all reg
         AC <= 16'd0;
         E <= 1'd0;
         I <= 1'd0;
+        cs <= 1'd1;
         we <= 1'd1;
     end
 end

@@ -25,7 +25,7 @@ set rt::rc [catch {
     rt::delete_design
 
     rt::set_parameter datapathDensePacking false
-    set rt::partid xc7z020clg400-1
+    set rt::partid xcvc1802-viva1596-1LHP-i-L
      file delete -force synth_hints.os
 
     set rt::multiChipSynthesisFlow false
@@ -34,7 +34,7 @@ set rt::rc [catch {
 
     set rt::useElabCache false
     if {$rt::useElabCache == false} {
-      rt::read_verilog C:/dev/fpga_proj/_mini/manoCPU/cpu_ip/cpu_ip.srcs/sources_1/new/cpu.v
+      rt::read_verilog C:/dev/fpga_proj/_mini/manoCPU/homework8/homework8.srcs/sources_1/new/cpu.v
       rt::filesetChecksum
     }
     rt::set_parameter usePostFindUniquification false

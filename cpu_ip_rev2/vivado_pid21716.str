@@ -1228,3 +1228,35 @@ selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // D
 selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // D
 // Elapsed time: 13 seconds
 selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // D
+// Elapsed time: 1260 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,220 MB. GUI used memory: 130 MB. Current time: 9/8/22, 3:04:46 PM KST
+// Engine heap size: 2,220 MB. GUI used memory: 131 MB. Current time: 9/8/22, 3:04:46 PM KST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bA
+selectCodeEditor("memory_interface.v", 418, 328); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 2); // m
+selectCodeEditor("cpu.v", 280, 128); // be
+typeControlKey((HResource) null, "cpu.v", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory_interface.v", 3); // m
+selectCodeEditor("memory_interface.v", 233, 138); // be
+typeControlKey((HResource) null, "memory_interface.v", 'c'); // be
+// Elapsed time: 65 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // m
+selectCodeEditor("top.v", 202, 240); // be
+selectCodeEditor("top.v", 92, 439); // be
+typeControlKey((HResource) null, "top.v", 'c'); // be
+// Elapsed time: 57 seconds
+selectCodeEditor("top.v", 236, 237); // be
+selectCodeEditor("top.v", 195, 423); // be
+selectCodeEditor("top.v", 231, 425); // be
+typeControlKey((HResource) null, "top.v", 'c'); // be
+// Elapsed time: 340 seconds
+selectCodeEditor("top.v", 314, 253); // be
