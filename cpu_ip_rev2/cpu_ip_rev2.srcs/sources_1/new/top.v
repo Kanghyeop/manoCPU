@@ -14,12 +14,14 @@ input clk;
 input reset_n;
 
 // wire from cpu
+wire cs;
 wire we;
 wire [15:0]d_in;
 wire [15:0]d_out;
 wire [11:0]AR;
 
 // wire from ram
+wire ce;
 wire we;
 wire [addr_width-1:0] addr;
 wire [word_width-1:0] d;
@@ -34,6 +36,7 @@ cpu_0
     .reset(reset_n),
     .AR(AR), // need check
     .d_in(q),
+    .cs(cs),
     .we(we),
     .d_out(d_out)
 );
@@ -42,6 +45,7 @@ memory_interface
 memory_interface_0
 (
     .clk(clk),
+    .ce(cs),
     .we(we), 
     .addr(AR), 
     .d(d_out), 

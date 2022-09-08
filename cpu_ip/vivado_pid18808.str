@@ -209,3 +209,4 @@ typeControlKey((HResource) null, "cpu.v", 'c'); // be
 selectCodeEditor("cpu.v", 60, 745, false, false, false, true, false); // be - Popup Trigger
 selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ao
 // HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 96 MB. Current time: 9/8/22, 2:14:12 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,070 MB. GUI used memory: 96 MB. Current time: 9/8/22, 2:44:12 PM KST
