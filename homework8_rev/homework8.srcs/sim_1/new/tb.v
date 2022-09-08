@@ -7,9 +7,6 @@ parameter
     word_depth = 4096,
     word_width = 16;
 
-// file
-integer fp;
-
 // top module input
 reg clk, reset_n;
 
@@ -61,14 +58,11 @@ initial begin // sram dump
 end
 
 initial begin // simulation
-    fp = $fopen("out.txt","w"); 
     clk = 1'b0;
     reset_n = 1'b1;
     #0.1 reset_n = 1'b0;
     #0.1 reset_n = 1'b1;
-    #300
-    $fdisplay(fp, "SRAM[99] = %b", tb.sram_0.ram[99]);
-    $fclose(fp);
+    #299.8;
     $finish;
 end
 
