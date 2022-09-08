@@ -672,3 +672,5 @@ Completed Processing XDC Constraints
 
 refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2504.906 ; gain = 4.773
 close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  8 15:22:40 2022...
