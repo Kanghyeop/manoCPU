@@ -187,3 +187,9 @@ dismissDialog("Open Elaborated Design"); // bA
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cpu.v", 2); // m
 // Elapsed time: 55 seconds
 selectCodeEditor("cpu.v", 1068, 127); // be
+// Elapsed time: 202 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 24 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectCodeEditor("cpu.v", 449, 385); // be
