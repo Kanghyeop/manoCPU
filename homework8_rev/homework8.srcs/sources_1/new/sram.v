@@ -3,7 +3,7 @@
 module sram(clk, ce, we, addr, d, q);
 
 parameter 
-    addr_width = 12, 
+    addr_width = 12,
     word_depth = 4096,
     word_width = 16;
 
