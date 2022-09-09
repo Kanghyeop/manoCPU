@@ -119,3 +119,4 @@ close_sim
 launch_simulation
 open_wave_config C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/tb_behav.wcfg
 source tb.tcl
+close_sim

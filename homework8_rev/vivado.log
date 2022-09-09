@@ -1712,3 +1712,7 @@ source tb.tcl
 $finish called at time : 30 ns : File "C:/dev/fpga_proj/_mini/manoCPU/homework8_rev/homework8.srcs/sim_1/new/tb.v" Line 66
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  9 10:51:33 2022...

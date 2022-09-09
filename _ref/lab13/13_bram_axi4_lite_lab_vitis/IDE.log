@@ -1,0 +1,109 @@
+10:11:45 DEBUG : Logs will be stored at 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/IDE.log'.
+10:11:47 INFO  : Registering command handlers for Vitis TCF services
+10:11:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\dev\fpga_proj\lab13\13_bram_axi4_lite_lab_vitis\temp_xsdb_launch_script.tcl
+10:11:48 INFO  : Platform repository initialization has completed.
+10:11:50 INFO  : XSCT server has started successfully.
+10:11:50 INFO  : plnx-install-location is set to ''
+10:11:52 INFO  : Successfully done setting XSCT server connection channel  
+10:11:52 INFO  : Successfully done query RDI_DATADIR 
+10:11:52 INFO  : Successfully done setting workspace for the tool. 
+10:13:25 INFO  : Result from executing command 'getProjects': design_1_wrapper
+10:13:25 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:13:25 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:13:26 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+10:13:36 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+10:14:20 INFO  : Result from executing command 'getProjects': design_1_wrapper
+10:14:20 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|C:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+10:14:21 INFO  : Checking for BSP changes to sync application flags for project '13_bram_axi4_lite_lab_app'...
+10:20:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351B5BF7DA' is selected.
+10:20:51 INFO  : 'jtag frequency' command is executed.
+10:20:51 INFO  : Context for 'APU' is selected.
+10:20:52 INFO  : System reset is completed.
+10:20:55 INFO  : 'after 3000' command is executed.
+10:20:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B5BF7DA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B5BF7DA-23727093-0"}' command is executed.
+10:20:57 INFO  : Device configured successfully with "C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/bitstream/design_1_wrapper.bit"
+10:20:57 INFO  : Context for 'APU' is selected.
+10:20:57 INFO  : Hardware design and registers information is loaded from 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+10:20:57 INFO  : 'configparams force-mem-access 1' command is executed.
+10:20:57 INFO  : Context for 'APU' is selected.
+10:20:57 INFO  : Sourcing of 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/psinit/ps7_init.tcl' is done.
+10:20:57 INFO  : 'ps7_init' command is executed.
+10:20:57 INFO  : 'ps7_post_config' command is executed.
+10:20:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:57 INFO  : The application 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/Debug/13_bram_axi4_lite_lab_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:20:57 INFO  : 'configparams force-mem-access 0' command is executed.
+10:20:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B5BF7DA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B5BF7DA-23727093-0"}
+fpga -file C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/Debug/13_bram_axi4_lite_lab_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:20:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:20:58 INFO  : 'con' command is executed.
+10:20:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:20:58 INFO  : Launch script is exported to file 'C:\dev\fpga_proj\lab13\13_bram_axi4_lite_lab_vitis\13_bram_axi4_lite_lab_app_system\_ide\scripts\debugger_13_bram_axi4_lite_lab_app-default.tcl'
+10:32:35 INFO  : Disconnected from the channel tcfchan#2.
+10:32:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:32:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351B5BF7DA' is selected.
+10:32:36 INFO  : 'jtag frequency' command is executed.
+10:32:36 INFO  : Context for 'APU' is selected.
+10:32:36 INFO  : System reset is completed.
+10:32:39 INFO  : 'after 3000' command is executed.
+10:32:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B5BF7DA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B5BF7DA-23727093-0"}' command is executed.
+10:32:41 INFO  : Device configured successfully with "C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/bitstream/design_1_wrapper.bit"
+10:32:41 INFO  : Context for 'APU' is selected.
+10:32:41 INFO  : Hardware design and registers information is loaded from 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+10:32:41 INFO  : 'configparams force-mem-access 1' command is executed.
+10:32:42 INFO  : Context for 'APU' is selected.
+10:32:42 INFO  : Sourcing of 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/psinit/ps7_init.tcl' is done.
+10:32:42 INFO  : 'ps7_init' command is executed.
+10:32:42 INFO  : 'ps7_post_config' command is executed.
+10:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:42 INFO  : The application 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/Debug/13_bram_axi4_lite_lab_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:32:42 INFO  : 'configparams force-mem-access 0' command is executed.
+10:32:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B5BF7DA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B5BF7DA-23727093-0"}
+fpga -file C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/13_bram_axi4_lite_lab_app/Debug/13_bram_axi4_lite_lab_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:42 INFO  : 'con' command is executed.
+10:32:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:32:42 INFO  : Launch script is exported to file 'C:\dev\fpga_proj\lab13\13_bram_axi4_lite_lab_vitis\13_bram_axi4_lite_lab_app_system\_ide\scripts\debugger_13_bram_axi4_lite_lab_app-default.tcl'
+10:55:29 INFO  : Disconnected from the channel tcfchan#3.

@@ -1,0 +1,38 @@
+10:14:21 **** Build of configuration Debug for project 13_bram_axi4_lite_lab_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/lab13_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab13_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/lab13_main.d" -MT"src/lab13_main.o" -o "src/lab13_main.o" "../src/lab13_main.c"
+../src/lab13_main.c: In function 'main':
+../src/lab13_main.c:50:13: warning: unused variable 'read_buf' [-Wunused-variable]
+   50 |         int read_buf[MEM_DEPTH];
+      |             ^~~~~~~~
+../src/lab13_main.c:47:19: warning: unused variable 'tEnd' [-Wunused-variable]
+   47 |     XTime tStart, tEnd;
+      |                   ^~~~
+../src/lab13_main.c:47:11: warning: unused variable 'tStart' [-Wunused-variable]
+   47 |     XTime tStart, tEnd;
+      |           ^~~~~~
+../src/lab13_main.c:46:9: warning: unused variable 'reg_num' [-Wunused-variable]
+   46 |     int reg_num;
+      |         ^~~~~~~
+'Finished building: ../src/lab13_main.c'
+' '
+'Building target: 13_bram_axi4_lite_lab_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "13_bram_axi4_lite_lab_app.elf"  ./src/lab13_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 13_bram_axi4_lite_lab_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size 13_bram_axi4_lite_lab_app.elf  |tee "13_bram_axi4_lite_lab_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77538	   2550	  22640	 102728	  19148	13_bram_axi4_lite_lab_app.elf
+'Finished building: 13_bram_axi4_lite_lab_app.elf.size'
+' '
+
+10:14:21 Build Finished (took 546ms)
+
