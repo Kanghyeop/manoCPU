@@ -1,0 +1,16 @@
+11:32:41 INFO  : Platform repository initialization has completed.
+11:32:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\dev\fpga_proj\_mini\manoCPU\_ref\lab13_new\bram_axi_vitis\temp_xsdb_launch_script.tcl
+11:32:41 INFO  : Registering command handlers for Vitis TCF services
+11:32:43 INFO  : XSCT server has started successfully.
+11:32:43 INFO  : Successfully done setting XSCT server connection channel  
+11:32:44 INFO  : plnx-install-location is set to ''
+11:32:44 INFO  : Successfully done setting workspace for the tool. 
+11:32:44 INFO  : Successfully done query RDI_DATADIR 
+11:33:57 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:33:57 INFO  : Result from executing command 'getPlatforms': 
+11:33:57 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:33:58 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:34:09 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:34:48 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:34:48 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13_new/bram_axi_vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+11:34:49 INFO  : Checking for BSP changes to sync application flags for project 'bram_axi_app'...

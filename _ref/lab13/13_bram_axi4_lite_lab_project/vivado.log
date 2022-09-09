@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Sep  9 10:56:39 2022
+# Process ID: 16732
+# Current directory: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent956 C:\dev\fpga_proj\_mini\manoCPU\_ref\lab13\13_bram_axi4_lite_lab_project\13_bram_axi4_lite_lab_project.xpr
+# Log file: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_project/vivado.log
+# Journal file: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_project\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_project/13_bram_axi4_lite_lab_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/dev/fpga_proj/lab13/13_bram_axi4_lite_lab_project' since last save.
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.40) then the current supported version (0.39).
+Data could be potentially be lost
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_rst_ps7_0_50M_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_system_ila_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_processing_system7_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_lab13_matbi_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_auto_pc_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_rst_ps7_0_50M_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_system_ila_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_processing_system7_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_lab13_matbi_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run design_1_auto_pc_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2022) not recognized by Vivado. 
+
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.40) then the current supported version (0.39).
+Data could be potentially be lost
+WARNING: [BD 41-1663] The design 'design_1.bd' cannot be modified due to following reason(s):
+* Project is read-only. Please run 'save_project_as' before making any change to the bd-design. 
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_lab13_matbi_0_0
+design_1_auto_pc_0
+design_1_processing_system7_0_0
+design_1_ps7_0_axi_periph_0
+design_1_rst_ps7_0_50M_0
+design_1_system_ila_0_0
+
+WARNING: [Project 1-231] Project '13_bram_axi4_lite_lab_project.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1453.426 ; gain = 0.000
+update_compile_order -fileset sources_1
+save_project_as 13_bram_axi4_lite_lab_project_editable C:/dev/fpga_proj/_mini/manoCPU/_ref/lab13/13_bram_axi4_lite_lab_project_editable -force
+WARNING: [IP_Flow 19-2162] IP 'design_1_auto_pc_0' is locked:
+* Project containing IP 'design_1_auto_pc_0' is read-only. * IP definition 'AXI Protocol Converter (2.1)' for IP 'design_1_auto_pc_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'design_1_lab13_matbi_0_0' is locked:
+* Project containing IP 'design_1_lab13_matbi_0_0' is read-only.
+WARNING: [IP_Flow 19-2162] IP 'design_1_processing_system7_0_0' is locked:
+* Project containing IP 'design_1_processing_system7_0_0' is read-only.
+WARNING: [IP_Flow 19-2162] IP 'design_1_rst_ps7_0_50M_0' is locked:
+* Project containing IP 'design_1_rst_ps7_0_50M_0' is read-only.
+WARNING: [IP_Flow 19-2162] IP 'design_1_system_ila_0_0' is locked:
+* Project containing IP 'design_1_system_ila_0_0' is read-only. * IP definition 'System ILA (1.1)' for IP 'design_1_system_ila_0_0' (customized with software release 2022.1) has a different revision in the IP Catalog. * IP 'design_1_system_ila_0_0' contains one or more locked subcores.
+WARNING: [IP_Flow 19-2162] IP 'design_1_auto_pc_0' is locked:
+* IP definition 'AXI Protocol Converter (2.1)' for IP 'design_1_auto_pc_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'design_1_ps7_0_axi_periph_0' is locked:
+* IP definition 'AXI Interconnect (2.1)' for IP 'design_1_ps7_0_axi_periph_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'design_1_system_ila_0_0' is locked:
+* IP definition 'System ILA (1.1)' for IP 'design_1_system_ila_0_0' (customized with software release 2022.1) has a different revision in the IP Catalog.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_auto_pc_0
+design_1_ps7_0_axi_periph_0
+design_1_system_ila_0_0
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  9 10:57:29 2022...
