@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
