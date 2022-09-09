@@ -1,0 +1,729 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Sep  9 14:30:47 2022
+# Process ID: 15100
+# Current directory: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1372 C:\dev\fpga_proj\_mini\manoCPU\_ref\lab15_new\15_data_mover_bram_customize\15_data_mover_bram_ip.xpr
+# Log file: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/vivado.log
+# Journal file: C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize\vivado.jou
+# Running On: DESKTOP-UK50EEK, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 12, Host memory: 17103 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_ip' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.gen/sources_1', nor could it be found using path 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_ip/15_data_mover_bram_ip.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1452.281 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
+set_property xsim.view C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -view {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+Success Simulation!! (Matbi = gudok & joayo) [225]
+$finish called at time : 225 ns : File "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" Line 112
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -view {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+Success Simulation!! (Matbi = gudok & joayo) [225]
+$finish called at time : 225 ns : File "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" Line 112
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -view {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_data_mover_bram_behav xil_defaultlib.tb_data_mover_bram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_mover_bram_default
+Compiling module xil_defaultlib.true_dpbram(DWIDTH=32,MEM_SIZE=4...
+Compiling module xil_defaultlib.tb_data_mover_bram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_data_mover_bram_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_data_mover_bram_behav -key {Behavioral:sim_1:Functional:tb_data_mover_bram} -tclbatch {tb_data_mover_bram.tcl} -view {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
+source tb_data_mover_bram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+initialize value [0]
+Reset! [0]
+Step 1. Mem write to Bram0 [125]
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_data_mover_bram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'COUNT_SCORE_DATA' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:91]
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'COUNT_SCORE_DATA' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:91]
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:92]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:91]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_data_mover_bram'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_data_mover_bram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_data_mover_bram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mover_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dpbram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
+ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:91]
+ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  9 16:49:12 2022...

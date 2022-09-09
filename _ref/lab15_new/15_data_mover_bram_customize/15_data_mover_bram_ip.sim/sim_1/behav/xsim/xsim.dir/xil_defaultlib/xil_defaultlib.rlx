@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v,1662703922,verilog,,,,tb_data_mover_bram,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/data_mover_bram.v,1662701273,verilog,,C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v,,data_mover_bram,,,,,,,,
+C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sources_1/imports/HW/true_dpbram.v,1662701907,verilog,,C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v,,true_dpbram,,,,,,,,
