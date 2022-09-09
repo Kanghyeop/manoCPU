@@ -57,7 +57,7 @@ int main() {
 
     	if(data == WRITE){
 #ifdef FSM_COUNTER
-    		Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (CTRL_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
+    		Xil_Out32((XPAR_BRAM_AXI_0_BASEADDR) + (CTRL_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
     		printf("plz input Value 31bit. MSB is the run signal\n");
     		scanf("%d",&data);
 
@@ -71,15 +71,15 @@ int main() {
 
     		// check IDLE
     		do{
-    			read_data = Xil_In32((XPAR_LAB13_MATBI_0_BASEADDR) + (STATUS_REG*AXI_DATA_BYTE));
+    			read_data = Xil_In32((XPAR_BRAM_AXI_0_BASEADDR) + (STATUS_REG*AXI_DATA_BYTE));
     		} while( (read_data & IDLE) != IDLE);
     		// start core
     		printf("LAB13_MATBI_0 Start\n");
-    		Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (CTRL_REG*AXI_DATA_BYTE), (u32)(data | 0x80000000)); // MSB run
+    		Xil_Out32((XPAR_BRAM_AXI_0_BASEADDR) + (CTRL_REG*AXI_DATA_BYTE), (u32)(data | 0x80000000)); // MSB run
     		XTime_GetTime(&tStart);
     		// wait done
     		do{
-    			read_data = Xil_In32((XPAR_LAB13_MATBI_0_BASEADDR) + (STATUS_REG*AXI_DATA_BYTE));
+    			read_data = Xil_In32((XPAR_BRAM_AXI_0_BASEADDR) + (STATUS_REG*AXI_DATA_BYTE));
     		} while( (read_data & DONE) != DONE );
     		XTime_GetTime(&tEnd);
     		printf("LAB13_MATBI_0 Done\n");
@@ -88,25 +88,25 @@ int main() {
     		       1.0 * (tEnd - tStart) / (COUNTS_PER_SECOND/1000000));
 #endif
 			// (lab13 Memory Test)
-    		Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (MEM0_ADDR_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
+    		Xil_Out32((XPAR_BRAM_AXI_0_BASEADDR) + (MEM0_ADDR_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
     		printf("plz input srand value.\n");
     		scanf("%d",&data);
 			srand(data);
 			for(i=0; i< MEM_DEPTH ; i++){
 				write_buf[i] = rand();
-    			Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (MEM0_DATA_REG*AXI_DATA_BYTE), write_buf[i]); // Clear
+    			Xil_Out32((XPAR_BRAM_AXI_0_BASEADDR) + (MEM0_DATA_REG*AXI_DATA_BYTE), write_buf[i]); // Clear
 			}
     	} else if (data == READ){
 #ifdef FSM_COUNTER
     		printf("plz input READ reg number (0~3)\n");
     		scanf("%d",&reg_num);
-    		read_data = Xil_In32((XPAR_LAB13_MATBI_0_BASEADDR) + (reg_num*AXI_DATA_BYTE));
+    		read_data = Xil_In32((XPAR_BRAM_AXI_0_BASEADDR) + (reg_num*AXI_DATA_BYTE));
     		printf("LAB13_MATBI_0 REG read done reg_number (%d), value : %d\n", reg_num, read_data & 0x7FFFFFFF); // no check run value
 #endif
 			// (lab13 Memory Test)
-    		Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (MEM0_ADDR_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
+    		Xil_Out32((XPAR_BRAM_AXI_0_BASEADDR) + (MEM0_ADDR_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
 			for(i=0; i< MEM_DEPTH ; i++){
-    			read_data = Xil_In32((XPAR_LAB13_MATBI_0_BASEADDR) + (MEM0_DATA_REG*AXI_DATA_BYTE));
+    			read_data = Xil_In32((XPAR_BRAM_AXI_0_BASEADDR) + (MEM0_DATA_REG*AXI_DATA_BYTE));
 				if(read_data != write_buf[i]){  // Check Read Result
 					printf("Matbi!! Mismatch!! plz contact me. idx : %d, Write_data : %d, Read_data : %d\n", i, write_buf[i], read_data);
 				}

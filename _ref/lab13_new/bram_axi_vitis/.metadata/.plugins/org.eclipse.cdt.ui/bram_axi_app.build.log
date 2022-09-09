@@ -1,4 +1,4 @@
-11:34:49 **** Build of configuration Debug for project bram_axi_app ****
+12:57:57 **** Incremental Build of configuration Debug for project bram_axi_app ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -8,11 +8,6 @@ make --no-print-directory main-build
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab13_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/dev/fpga_proj/_mini/manoCPU/_ref/lab13_new/bram_axi_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/lab13_main.d" -MT"src/lab13_main.o" -o "src/lab13_main.o" "../src/lab13_main.c"
 ../src/lab13_main.c: In function 'main':
-../src/lab13_main.c:91:18: error: 'XPAR_LAB13_MATBI_0_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_AXI_0_BASEADDR'?
-   91 |       Xil_Out32((XPAR_LAB13_MATBI_0_BASEADDR) + (MEM0_ADDR_REG*AXI_DATA_BYTE), (u32)(0x00000000)); // Clear
-      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                  XPAR_BRAM_AXI_0_BASEADDR
-../src/lab13_main.c:91:18: note: each undeclared identifier is reported only once for each function it appears in
 ../src/lab13_main.c:50:6: warning: unused variable 'read_buf' [-Wunused-variable]
    50 |  int read_buf[MEM_DEPTH];
       |      ^~~~~~~~
@@ -25,8 +20,19 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab13_main.o" -mcp
 ../src/lab13_main.c:46:9: warning: unused variable 'reg_num' [-Wunused-variable]
    46 |     int reg_num;
       |         ^~~~~~~
-make[1]: *** [src/subdir.mk:23: src/lab13_main.o] Error 1
-make: *** [makefile:34: all] Error 2
+'Finished building: ../src/lab13_main.c'
+' '
+'Building target: bram_axi_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/dev/fpga_proj/_mini/manoCPU/_ref/lab13_new/bram_axi_vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "bram_axi_app.elf"  ./src/lab13_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bram_axi_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size bram_axi_app.elf  |tee "bram_axi_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78310	   2550	  22640	 103500	  1944c	bram_axi_app.elf
+'Finished building: bram_axi_app.elf.size'
+' '
 
-11:34:49 Build Finished (took 372ms)
+12:57:58 Build Finished (took 617ms)
 
