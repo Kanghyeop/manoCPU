@@ -5,10 +5,7 @@
 `define MEM_DEPTH 4096
 `define CORE_DELAY 5
 
-// Added by Hyeop
-`define COUNT_SCORE_DATA 10
-`define COUNT_INSTRUCTION_DATA 11
-`define IN_DATA_WITDH 8
+//`define DIRECT_ACCESS_MEM  // To reduce simulation time
 
 module tb_data_mover_bram;
 reg clk , reset_n;
@@ -39,13 +36,6 @@ reg  					we1_b0	;
 wire [`DATA_WIDTH-1:0]  q1_b0	;
 reg [`DATA_WIDTH-1:0] 	d1_b0	;
 
-// Added by Hyeop
-// data handling register (so far, i don't know what is this for)
-reg [`IN_DATA_WITDH-1:0]  a_0;
-reg [`IN_DATA_WITDH-1:0]  b_0;
-reg [`IN_DATA_WITDH-1:0]  a_1;
-reg [`IN_DATA_WITDH-1:0]  b_1;
-
 // Read BRAM 1
 reg [`ADDR_WIDTH-1:0] 	addr1_b1;
 reg  					ce1_b1	;
@@ -59,12 +49,6 @@ always
     #5 clk = ~clk;
 
 integer i;
-integer f_in_score, temp;
-
-initial
-  begin
-    f_in_score = $fopen("score_dec.txt","rb");
-  end
 
 initial begin
 //initialize value
@@ -92,9 +76,47 @@ $display("Reset! [%0d]", $time);
 
 $display("Step 1. Mem write to Bram0 [%0d]", $time);
 for(i = 0; i < i_num_cnt; i = i + 1) begin
-	status = $fscanf(f_in_score,"%d\n", temp);
-	u_TDPBRAM_0.ram[i] = {temp, temp, temp, temp};
+`ifndef DIRECT_ACCESS_MEM
+	@(posedge clk);
+	addr1_b0 = i;
+	ce1_b0 = 1;
+	we1_b0 = 1;
+	d1_b0 = i;
+`else
+	u_TDPBRAM_0.ram[i] = i;
+`endif
 end
+
+/*
+
+$display("Step 2. Check Idle [%0d]", $time);
+wait(o_idle);
+
+$display("Step 3. Start! data_mover_bram [%0d]", $time);
+	i_run = 1;
+@(posedge clk);
+	i_run = 0;
+
+$display("Step 4. Wait Done [%0d]", $time);
+wait(o_done);
+
+$display("Step 5. Mem Read from Bram1 [%0d]", $time);
+for(i = 0; i < i_num_cnt; i = i + 1) begin
+`ifndef DIRECT_ACCESS_MEM
+	@(posedge clk);
+	addr1_b1 = i;
+	ce1_b1 = 1;
+	we1_b1 = 0; //read
+`else
+	if (u_TDPBRAM_1.ram[i] != i) begin
+		$display("Mismatch Data in BRAM_1. i = %d [%0d]", i, $time);
+	end	else begin
+		$display("Match Data in BRAM_1. i = %d [%0d]", u_TDPBRAM_1.ram[i], $time);
+	end
+`endif
+end
+
+*/
 
 # 100
 $display("Success Simulation!! (Matbi = gudok & joayo) [%0d]", $time);

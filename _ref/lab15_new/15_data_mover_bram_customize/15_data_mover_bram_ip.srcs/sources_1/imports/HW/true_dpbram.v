@@ -1,3 +1,22 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Personal
+// Engineer: Matbi / Austin
+//
+// Create Date: 2021.01.02
+// Design Name: 
+// Module Name: dpbram_from_hls
+// Project Name:
+// Target Devices:
+// Tool Versions:
+// Description: synthesible true dpbram from vivado hls
+// Dependencies:
+//
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 `timescale 1 ns / 1 ps
 module true_dpbram (
 	clk, 

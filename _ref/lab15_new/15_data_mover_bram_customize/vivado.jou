@@ -18,35 +18,3 @@ source tb_data_mover_bram.tcl
 close_sim
 launch_simulation
 source tb_data_mover_bram.tcl
-close_sim
-launch_simulation
-source tb_data_mover_bram.tcl
-save_wave_config {C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg}
-add_files -fileset sim_1 -norecurse C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
-set_property xsim.view C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg [get_filesets sim_1]
-close_sim
-launch_simulation
-open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
-source tb_data_mover_bram.tcl
-close_sim
-launch_simulation
-open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
-source tb_data_mover_bram.tcl
-close_sim
-launch_simulation
-open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
-source tb_data_mover_bram.tcl
-close_sim
-launch_simulation
-open_wave_config C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/tb_data_mover_bram_behav.wcfg
-source tb_data_mover_bram.tcl
-close_sim
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation

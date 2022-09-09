@@ -4,5 +4,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref
 INFO: [VRFC 10-311] analyzing module true_dpbram
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_data_mover_bram
-ERROR: [VRFC 10-2989] 'status' is not declared [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:91]
-ERROR: [VRFC 10-2865] module 'tb_data_mover_bram' ignored due to previous errors [C:/dev/fpga_proj/_mini/manoCPU/_ref/lab15_new/15_data_mover_bram_customize/15_data_mover_bram_ip.srcs/sim_1/imports/HW/tb_data_mover_bram.v:13]
