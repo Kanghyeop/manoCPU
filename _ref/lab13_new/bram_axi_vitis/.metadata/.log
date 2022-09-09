@@ -4924,3 +4924,9 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3: Launch
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-09-09 12:59:35.381
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3: Launching Debugger_bram_axi_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-09 13:17:38.707
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-104
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-09-09 13:17:38.709
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-104

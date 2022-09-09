@@ -122,3 +122,4 @@ con
 ----------------End of Script----------------
 
 12:59:35 INFO  : Launch script is exported to file 'C:\dev\fpga_proj\_mini\manoCPU\_ref\lab13_new\bram_axi_vitis\bram_axi_app_system\_ide\scripts\debugger_bram_axi_app-default.tcl'
+13:17:38 INFO  : Disconnected from the channel tcfchan#1.
